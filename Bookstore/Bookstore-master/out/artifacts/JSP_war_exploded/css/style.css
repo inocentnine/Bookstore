@@ -1,0 +1,79 @@
+body {
+    background: #f8f8f8;
+    text-align: left;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a{ text-decoration: none; }
+a:hover,a:link,a:active,a:visited{text-decoration:none;}
+strong { font-weight: 700; }
+.red { color: #eb4141; }
+
+.header {
+    margin-le: 10,10,10,10; /*外边距*/
+    padding-bottom: 5px;
+    background: #f8f8f8 url(../images/pattern.jpg) left top repeat;
+    border-top: 3px solid #eb4141;
+    -moz-box-shadow: 0 0px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 0px 5px 0 rgba(0,0,0,.3);
+}
+
+.list {
+    width: 30%;
+    height: 512px;
+    top: 10px;
+    left: 2px;
+    padding-bottom: 5px;
+    background: #f8f8f8 url(../images/pattern.jpg) left top repeat;
+    -moz-box-shadow: 1px 0px 0px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 1px 0px 0px 0 rgba(0,0,0,.3);
+    box-shadow: 1px 0px 0px 0 rgba(0,0,0,.3);
+}
+
+li{
+    margin:0px 2px; display:inline;
+}
+
+#header a{color: black;}
+#header #navbar { color:#fff; background:#ffe0a3; padding:2px; line-height:42px; text-align:right; }
+/*#header #userMenu { float:left; }*/
+#header #userMenu ul li { margin:0px 2px; display:inline; }
+#header #userMenu ul li a { display:block; padding:0px 25px; text-decoration:none; background:#ffe0a3; white-space:nowrap;font-size: 25px; }
+#header #userMenu ul li.current a { font-weight:bold; background:#fff; }
+#header #navbar input { margin-right:5px; vertical-align:middle; border:1px solid #ccc; }
+#header #navbar input.input-text { padding:2px 3px; width:160px; height:34px; }
+#header #navbar input.input-btn { border:none; background:url(../images/timg.jpg); height:40px; width:40px;background-size:40px 40px;  }
+
+
+.login h1 {
+    padding-left: 50px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.login h1 a { color: #555; }
+
+.links {
+    text-align: right;
+}
+
+.links a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 15px 0 0 20px;
+}
+
+.links a.login { background: url(../images/login.png) center center no-repeat; }
+.links a.logout { background: url(../images/logout.png) center center no-repeat; }
+.links a.car { background: url(../images/car.png) center center no-repeat; }
+.links a.register { background: url(../images/register.png) center center no-repeat; margin-right: 50px; }
+
+
+
+

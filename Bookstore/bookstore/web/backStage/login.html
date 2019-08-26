@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+    <meta name="author" content="Vincent Garreau" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen" href="/css/style_admin.css">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css"/>
+    <title>后台登录</title>
+</head>
+<body>
+
+<div id="particles-js">
+    <div class="login">
+        <div class="login-top">
+            登录
+        </div>
+        <form method="post" action="http://localhost:8080/LoginServlet">
+        <div class="login-center clearfix">
+            <div class="login-center-img"><img src="/images/name.png"/></div>
+            <div class="login-center-input">
+                <input type="text" name="adminname" value="" placeholder="请输入您的用户名" onfocus="this.placeholder=''" onblur="this.placeholder='请输入您的用户名'"/>
+                <div class="login-center-input-text">用户名</div>
+            </div>
+        </div>
+        <div class="login-center clearfix">
+            <div class="login-center-img"><img src="/images/password.png"/></div>
+            <div class="login-center-input">
+                <input type="password" name="password"value="" placeholder="请输入您的密码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入您的密码'"/>
+                <div class="login-center-input-text">密码</div>
+            </div>
+        </div>
+        <button class="login-button">
+            登录
+        </button>
+        </form>
+    </div>
+    <div class="sk-rotating-plane"></div>
+</div>
+
+<script src="/js/particles.min.js"></script>
+<script src="/js/app.js"></script>
+<script type="text/javascript"></script>
+
+</body>
+</html>
